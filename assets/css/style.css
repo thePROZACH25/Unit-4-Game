@@ -1,3 +1,10 @@
+header {
+    text-align: center;
+    font-size: 75px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
 .human {
     height: 150px;
     width: 150px;
