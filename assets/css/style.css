@@ -5,12 +5,12 @@ body {
 }
 
 .main-game {
-
+    padding: 20px;
 }
 
 #titleBox {
-    height: 75px;
-    width: 400px;
+    height: 50px;
+    width: 350px;
     background-color: lightgrey;
     padding: 20px;
     margin: 0 auto;
@@ -18,6 +18,37 @@ body {
 }
 
 #title {
-    font-size: 50px;
+    font-size: 30px;
+    padding-top: 15px;
 }
 
+#infoBox {
+    height: 200px;
+    width: 500px;
+    background-color: lightpink;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.score-boxes {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#enemy-health {
+    height: 100px;
+    width: 225px;
+    background-color: lightskyblue;
+    margin-right: 15px;
+    text-align: center;
+}
+
+#score-card {
+    height: 100px;
+    width: 75px;
+    background-color: lightslategray;
+    text-align: center;
+}
