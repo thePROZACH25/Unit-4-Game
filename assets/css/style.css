@@ -1,36 +1,9 @@
-header {
-    text-align: center;
-    font-size: 75px;
-    padding-top: 15px;
-    padding-bottom: 20px;
-}
+body {
+    font-family: 'Lacquer', ;
+    /* background-image: url("../images/2c4a0f.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} */
 
-.human {
-    height: 150px;
-    width: 150px;
-    border: lightgreen solid 10px;
-}
 
-.polorBear {
-    height: 150px;
-    width: 150px;
-    border: rgb(126, 122, 116) solid 10px;
-}
-
-.cassowary {
-    height: 150px;
-    width: 150px;
-    border: lightcoral solid 10px;
-}
-
-.orca {
-    height: 150px;
-    width: 150px;
-    border: lightskyblue solid 10px;
-}
-
-.mosquitoe {
-    height: 150px;
-    width: 150px;
-    border: black solid 10px;
-}
