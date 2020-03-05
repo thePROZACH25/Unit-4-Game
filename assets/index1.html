@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
 
     <title>Snake Attack</title>
-    
+
     <!-- Font Style -->
     <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
     <!-- Css Stylesheets -->
@@ -29,20 +29,36 @@
         </div>
 
         <div id="infoBox">
-            <div id="info"></div>
+            <div id="info">
+                <p>
+                    You will be given a random number at the start of the game. There are four snakes below. By clicking
+                    on a snake you will be adding a specific aount of points to you total score. You win the game by
+                    matching your total score to random number, you lose the game if you total score goes above the
+                    random number. The value of each snake is hidden from you until you click on it. Each time when the
+                    game starts, the game will change the values of each snakes.
+                </p>
+            </div>
         </div>
         <!-- Score Boxes -->
         <div class="score-boxes">
             <div id="enemy-health">
-                <h2>Enemy Health <hr> <span id="renHealth"></span></h2>
+                <h2>Enemy Health
+                    <hr> <span id="renHealth"></span></h2>
             </div>
 
             <div id="score-card">
-                <h2>Wins <hr><span id="wins"></span>Loses <hr><span id="Loses"></span></h2>
+                <h2>Wins: <span id="wins"></span></h2>
+                <h2>Losses:<span id="loss"></span></h2>
             </div>
         </div>
         <!-- Snake Images -->
-        <div class="snake-images"></div>
+        <div class="snake-images">
+            <div class="box"></div>
+            <img src="images/Solid_2_295.jpg" alt="" id="one">
+            <img src="images/Solid_2_295.jpg" alt="" id="two">
+            <img src="images/Solid_2_295.jpg" alt="" id="three">
+            <img src="images/Solid_2_295.jpg" alt="" id="four">
+        </div>
         <!-- Snake Score -->
         <div class="snake-score">
             <p>Snake's total score is: <span id="total-score"></span></p>
